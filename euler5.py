@@ -6,7 +6,7 @@ from math import factorial
 
 # Function to stop nested loop with return
 def smallest20():
-	# Step is 2520 to reduce runtime (read description)
+	# Step is 2520 to reduce runtime
 	for x in range(2520, factorial(20), 2520):
 		# Check if divisible by every number 1 to 20
 		for y in range(1, 21):
