@@ -35,15 +35,19 @@ block = block.replace("\n", "")
 
 # Length of consecutive integers to calculate product of
 digits = 13
+
 # Running highest product value to check against
 highest_value = 0
 
 # Check product of consecutive integers against highest value
 for i in range(len(block) - digits):
+	
 	# Starting point
 	left_offset = i
+	
 	# Ending point
 	right_offset = (i + digits - len(block))
+	
 	# Value to check against current highest product value
 	check = string_to_int_product(block[left_offset : right_offset])
 	
