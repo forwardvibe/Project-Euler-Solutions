@@ -1,3 +1,5 @@
+# Project Euler Problem 8
+
 # Find product of integers originating from a string format
 def string_to_int_product(string_int):
 	product = 1
